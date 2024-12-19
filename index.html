@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moroccan Souvenirs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Amiri', serif;
+            background-color: #f9f5ed;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(90deg, #c08457, #8c4a3b);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-bottom: 5px solid #6e3a2c;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.3em;
+            margin: 5px 0 0;
+        }
+
+        .container {
+            padding: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+            background: #faf3e7;
+        }
+
+        .souvenir {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            width: 300px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .souvenir:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .souvenir img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .souvenir h3 {
+            font-size: 1.6em;
+            margin: 15px;
+            color: #8c4a3b;
+        }
+
+        .souvenir p {
+            margin: 15px;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+
+        footer {
+            background-color: #8c4a3b;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+            border-top: 5px solid #6e3a2c;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Moroccan Souvenirs</h1>
+        <p>Explore the finest treasures of Morocco</p>
+    </header>
+
+    <div class="container">
+        <div class="souvenir">
+            <img src="crystalline-group-shot-1250-x-745.jpg" alt="Handcrafted Pottery">
+            <h3>Handcrafted Pottery</h3>
+            <p>Beautifully designed pottery inspired by Moroccan traditions.</p>
+        </div>
+
+        <div class="souvenir">
+            <img src="Blog_Image_Size_ed9eb534-8ead-42eb-96a8-0df38c6e88da_1000x.webp" alt="Traditional Rugs">
+            <h3>Traditional Rugs</h3>
+            <p>Exquisite handwoven rugs from the Atlas Mountains.</p>
+        </div>
+
+        <div class="souvenir">
+            <img src="pexels-mohammad-ramezani-15807107.webp" alt="Moroccan Lanterns">
+            <h3>Moroccan Lanterns</h3>
+            <p>Elegant lanterns to illuminate your space with Moroccan charm.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Moroccan Souvenirs. All rights reserved.</p>
+    </footer>
+</body>
+</html>
